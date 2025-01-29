@@ -9,7 +9,12 @@ public class Prodotto {
 
     }
 
-    public int getCodice(){
+    //completare ultimo metodo: ottenere nome completo
+    public String getNomeProdottoCompleto(){
+        return  "-" + this.nomeProdotto;
+    }
+
+    public int setCodice(){
         return (int) (Math.random() * 100);
     }
 

@@ -6,10 +6,12 @@ public class Main {
         prodotto1.descrizione = "Bel telefono";
         prodotto1.prezzo = 950;
         prodotto1.iva = 22;
+        prodotto1.setCodice();
 
         System.out.println("Prezzo con iva: " + prodotto1.getPrezzoConIva() + " €");
         System.out.println("Prezzo base: " + prodotto1.getPrezzo() + " €");
-        System.out.println("Codice Prodotto: " + prodotto1.getCodice());
+        System.out.println("Codice Prodotto: " + prodotto1.setCodice());
+        System.out.println("Nome Prodotto Completo: " + prodotto1.getNomeProdottoCompleto());
 
 
 
