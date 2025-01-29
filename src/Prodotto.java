@@ -9,6 +9,30 @@ public class Prodotto {
 
     }
 
+    public String getNomeProdotto() {
+        return nomeProdotto;
+    }
+
+    public void setNomeProdotto(String nomeProdotto) {
+        this.nomeProdotto = nomeProdotto;
+    }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
+    }
+
+    public int getIva() {
+        return iva;
+    }
+
+    public void setIva(int iva) {
+        this.iva = iva;
+    }
+
     //completare ultimo metodo: ottenere nome completo
     public String getNomeProdottoCompleto(){
         return  "-" + this.nomeProdotto;
